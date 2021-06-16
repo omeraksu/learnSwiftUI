@@ -13,8 +13,7 @@ struct landmarkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(modelData)
+            ContentView().environmentObject(modelData)
         }
     }
 }

@@ -20,7 +20,7 @@ struct ContentView: View {
         TabView(selection: $selection) {
             CategoryHome()
                 .tabItem {
-                    Label("Featured", systemImage: "star")
+                    Label("Category", systemImage: "star.fill")
                 }
 
             LandmarkList()
